@@ -1,0 +1,37 @@
+
+#username{
+    border-radius: 50px;
+}
+#password{
+    border-radius: 50px;
+}
+.card-body{
+    background-color: rgba(234, 247, 245, 0.936);
+}
+.Menu{
+    background-color: rgb(10, 3, 67);
+    font-size: x-large;
+    color: white;
+}
+.details{
+
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.mt-4{
+    background-color: rgb(49, 3, 47);
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+}
+.table-bordered{
+    width: 100%;
+    background-color: rgb(178, 187, 7);
+    text-align: justify;
+}
+#club-table-body{
+    background-color: rgb(197, 203, 206);
+}
