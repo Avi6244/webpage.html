@@ -4,7 +4,15 @@
     border-radius: 100px;
     justify-content: center;
 }
-
+.addclub{
+   
+    border: 3px solid beige;
+    background-color: rgba(4, 77, 113, 0.367);
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+}
 #username{
     border-radius: 50px;
 }
@@ -40,4 +48,10 @@
 }
 #club-table-body{
     background-color: rgb(197, 203, 206);
+}
+.form-group{
+    font-weight: bold;
+}
+.form-control{
+    border-radius: 25px;
 }
