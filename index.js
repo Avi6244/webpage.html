@@ -5,7 +5,7 @@
    
     $('#login-form').on('submit', function(e) {
       
-        e.preventDefault();
+        e.preventDefault();// Prevent the default form submission
         $('#login-page').hide();
         $('#dashboard-page').show();
     });
@@ -19,13 +19,13 @@
     $('#club-form').on('submit', function(e) {
         e.preventDefault();
         
-       
+         // Optional: Handle the form submission for adding clubs
         var employee = $('#employee').val();
         var designation = $('#designation').val();
         var level = $('#level').val();
         var domain = $('#domain').val();
         
-       
+       // Append new entry to the table
         $('#club-table-body').append(
             `<tr>
                 <td>${employee}</td>
@@ -40,6 +40,8 @@
         $('#designation').val('');
         $('#level').val('');
         $('#domain').val('');
+    
     });
+   
  
 
